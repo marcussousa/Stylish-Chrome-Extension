@@ -53,7 +53,7 @@ Mouse over the header to show the friends list.
 
 > **Note:**
 
-> - Makes more sense if you use as a single window on your desktop
+> - Makes more sense if you use as a single window
 
     @media screen and (max-width: 500px) {
    		.app-wrapper-main.app-wrapper {
@@ -83,6 +83,10 @@ Mouse over the header to show the friends list.
     	
     	.pane-chat-header {
 	    	margin-top:60px
+    	}
+        
+        .pane-list-header {
+	   background: rgba(225,245,254,.92);
     	}
     	
     	.pane-list:hover .pane-list-header {
