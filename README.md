@@ -1,6 +1,9 @@
 # Stylish-Chrome-Extension
 A bunch of CSS customizations for Stylish Extension (Chrome)
 
+Link to Stylish Extension -> https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?utm_source=chrome-ntp-icon
+
+
 Facebook
 -------
 
