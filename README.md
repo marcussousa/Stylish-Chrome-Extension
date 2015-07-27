@@ -26,6 +26,19 @@ Grab this -> https://userstyles.org/styles/53261/facebook-wide-flat-design
     #pagelet_side_ads {
         display: none;
     }
+    /* 
+    ======  
+    modal 
+    ======  
+    */
+    ._3qx ._3ixn {
+        background-color: #868695;
+        opacity: .4;
+    }
+    ._n3 {
+        border: 1px solid rgba(0,0,0,.2);
+        box-shadow: 0 8px 55px rgba(54,65,89,.3)
+    }
 
 
 ----------
