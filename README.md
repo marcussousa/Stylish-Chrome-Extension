@@ -49,7 +49,7 @@ Grab this -> https://userstyles.org/styles/53261/facebook-wide-flat-design
 Whats App (responsive mode)
 -------
 
-Hover the header to show the list of friends
+Mouse over the header to show the friends list.
 
 > **Note:**
 
