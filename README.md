@@ -22,7 +22,8 @@ Grab this -> https://userstyles.org/styles/53261/facebook-wide-flat-design
     #findFriendsNav,
     #u_0_f,
     #appsNav ,
-    #developerNav{
+    #developerNav,
+    #pagelet_side_ads {
         display: none;
     }
 
