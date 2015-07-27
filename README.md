@@ -42,3 +42,49 @@ Grab this -> https://userstyles.org/styles/53261/facebook-wide-flat-design
 
 
 ----------
+
+Whats App (responsive mode)
+-------
+
+Hover the header to show the list of friends
+
+> **Note:**
+
+> - Makes more sense if you use as a single window on your desktop
+
+    @media screen and (max-width: 500px) {
+   		.app-wrapper-main.app-wrapper {
+   			min-width:100%
+   		}
+    	
+    	.drawer-container-mid,.drawer-container-right,
+    	.pane-chat,.pane-intro {
+	    	width:100%
+    	}
+    	
+    	.pane-list,
+    	.drawer-container-left {
+	    	height:60px;
+	    	position:absolute;
+	    	width:100%
+    	}
+    	
+    	.pane-list:hover,
+    	.drawer-container-left:hover {
+	    	border:1px solid rgba(0,0,0,.8);
+	    	border-top:none;
+	    	box-shadow:0 8px 45px rgba(54,65,89,1);
+	    	cursor:pointer;
+	    	height:80%
+    	}
+    	
+    	.pane-chat-header {
+	    	margin-top:60px
+    	}
+    	
+    	.pane-list:hover .pane-list-header {
+	    	background:#009688
+    	}
+    }
+
+ 
