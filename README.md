@@ -86,34 +86,31 @@ Mouse over the header to show the friends list.
     	}
         
         .pane-list-header {
-	   background: rgba(225,245,254,.92);
+		   background: rgba(225,245,254,.92);
     	}
     	
     	.pane-list:hover .pane-list-header {
 	    	background:#009688
     	}
     	 
-    	/* Counter */
-	.app{ counter-reset: unread }
-	.unread { counter-increment: unread }
-    
-	.app:after{
-		background-color:#C00;
-		border:1px solid #900;
-		border-radius:25px;
-		bottom:0;
-		color:#fff;
-		content:counter(unread);
-		font-size:14px;
-		height:20px;
-		left:45px;
-		line-height:20px;
-		position:absolute;
-		text-align:center;
-		top:30px;
-		width:20px;
-	}
-
+    	/* Counter Badge */
+		.app{ counter-reset: unread }
+		.unread { counter-increment: unread }
+	    
+		.app:after{
+			background-color:#C00;
+			border:1px solid #900;
+			border-radius:25px;
+			bottom:0;
+			color:#fff;
+			content:counter(unread);
+			font-size:14px;
+			height:20px;
+			left:45px;
+			line-height:20px;
+			position:absolute;
+			text-align:center;
+			top:30px;
+			width:20px;
+		}
     }
-
- 
