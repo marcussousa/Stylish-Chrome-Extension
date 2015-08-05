@@ -94,10 +94,8 @@ Mouse over the header to show the friends list.
 	    	background:#009688
     	}
     	 
-    	/* Counter */
-		.app{ counter-reset: unread }
-		.unread { counter-increment: unread }
-	    
+    	
+	    /* Notification Badge */  
 		.app:after{
 			background-color:#C00;
 			border:1px solid #900;
@@ -115,4 +113,7 @@ Mouse over the header to show the friends list.
 			width:20px;
 		}
     }
+    /* Counter */
+    .app{ counter-reset: unread }
+    .unread { counter-increment: unread }
     
